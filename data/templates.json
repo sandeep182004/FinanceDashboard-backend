@@ -1,0 +1,20 @@
+[
+  {
+    "id": "starter-two-cards",
+    "name": "Starter: Two Finance Cards",
+    "description": "Two finance cards (AAPL, MSFT) with auto-refresh",
+    "widgets": [
+      { "type": "card", "symbol": "AAPL", "provider": "alpha", "refreshInterval": 30000 },
+      { "type": "card", "symbol": "MSFT", "provider": "alpha", "refreshInterval": 30000 }
+    ]
+  },
+  {
+    "id": "growth-mix",
+    "name": "Growth Mix",
+    "description": "Line chart + table with popular tickers",
+    "widgets": [
+      { "type": "line", "symbol": "GOOGL", "days": 30, "provider": "alpha" },
+      { "type": "table", "symbols": ["AAPL","MSFT","AMZN","NVDA"], "provider": "finnhub" }
+    ]
+  }
+]
